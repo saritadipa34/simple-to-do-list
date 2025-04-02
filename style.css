@@ -21,30 +21,36 @@ input{
     width: 80%;
     background-color: rgb(244, 231, 231);
     padding: 10px;
-    font-size: larger;
 }
 
 .save{
     height: 40px;
     width: 80px;
     background-color: rgb(140, 223, 140);
+    cursor: pointer;
 }
 
 .taskContainer{
     border:1px solid black;
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-.task{
+.taskDiv{
     width: 100%;
     height: 40px;
     display: flex;
     justify-content: space-between;
+    border: 1px solid black;
 }
 
 p{
     padding: 10px 20px;
     font-size: larger;
+    width: 70%;
+    background-color: rgb(230, 183, 95);
 }
 
 .edit{
